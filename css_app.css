@@ -107,7 +107,7 @@ body {
     margin: 8px 13px;
   }
 
-  /*  hiding is not enough ,need to rotate the back face itself first,
+/* hiding is not enough ,need to rotate the back face itself first,
 to not be seen in the first moment without the click activated on card
 PS: there is no front face as element constructed itself ,
 I work only with the backface packed inside of card class,
@@ -118,7 +118,7 @@ I work only with the backface packed inside of card class,
     background-position: center center;
   }
 
-/*  the pic will be under the "card's first background"-->aka front_cover
+/* the pic will be under the "card's first background"-->aka front_cover
   but will be visible because it's made on purpose a bit bigger than
   the "front face"=backface's parent BACKGROUND*/
 /* hide the backface becasue of this */
@@ -130,7 +130,6 @@ I work only with the backface packed inside of card class,
     position:absolute;
     z-index:1;
     cursor:pointer;
-
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 20px;
@@ -287,7 +286,7 @@ color:white;
 
 .live-game-stats {
   text-align: left;
-  width: 85%;
+  width: 65%;
   display: flex;
   flex-flow:row wrap;
   align-items: center;
