@@ -1,8 +1,8 @@
 # Memory-Game-Journey
 
-##P3 from Fend Udacity,  "a trip between Romania and Czech Republic" 
+## P3 from Fend Udacity,  "a trip between Romania and Czech Republic" 
  
-##FEND Memory Game
+## FEND Memory Game
 
 Mainly the purpose of the little game is reflected in a set of rules:
 -clicking the cards
@@ -10,12 +10,12 @@ Mainly the purpose of the little game is reflected in a set of rules:
 -recording the moves, time and star points
 -providing the final stats of the game
 
-##The project is splitted between:
+## The project is splitted between:
 -html: P3_index.html
 -CSS: css_app.css
 -JS script: app.js
 
-##Technologies Used:
+## Technologies Used:
 HTML5
 CSS3
 Vanilla JavaScript
