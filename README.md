@@ -21,7 +21,7 @@ Mainly the purpose of the little game is reflected in a set of rules:
 - JavaScript
 - FontAwesome, for the small icons on the game menu.
 The cards that contain real images between the countries that I lived in till present times :Czech Republic and Romania(my home country).
-As a disclaimer, the images used for the flipping cards pertain to the sources cited on the page too for Romania[here](https://www.instagram.com/romaniapitoreasca/?hl=cs) and for Czech Republic, mainly Prague [just a pack facebook photos](https://www.facebook.com/justapack/).
+As a disclaimer, the images used for the flipping cards pertain to the sources cited on the page too for Romania [here](https://www.instagram.com/romaniapitoreasca/?hl=cs) and for Czech Republic, mainly Prague [just a pack facebook photos](https://www.facebook.com/justapack/).
 
 
 # Game Rules explained in more detail
@@ -51,5 +51,6 @@ Also one will have other 2 buttons to restart a new game("Try it again!" button)
 # Author
 Created by Georgiana-Ancuta Gava (Anca) for an Udacity project (FEND Nanodegree).
 
-### Note: The idea regarding a small part of the code about how the time is displayed and also the open cards separated array that is replaced with each matching trial, pertains to Matthew Cranford who gave me some inspiration and challenged me even more my further logic into achivieng my personal vision of how the game actually could work, depending on my own game framework and hopefully...creativity.[his outside work here] (https://github.com/MatthewCranford/fend-project-memory-game/tree/162fff98b15e3d9f6afd98034e3415e1049b0d96)
+### Note: The idea regarding a small part of the code about how the time is displayed as 2 digits for first 10 seconds and also the open cards separated array that is replaced with each matching trial, pertains to Matthew Cranford who gave me some inspiration and challenged me even more my further logic into achivieng my personal vision of how the game actually could work, depending on my own game framework and hopefully...creativity. 
+[his outside work here] (https://github.com/MatthewCranford/fend-project-memory-game/tree/162fff98b15e3d9f6afd98034e3415e1049b0d96)
 
