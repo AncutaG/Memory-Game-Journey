@@ -327,10 +327,6 @@ I work only with the backface packed inside of card class,
   color:#ffffff;
 }
 
-.fa-walking {
-  color:#ffffff;
-}
-
 .fa-hourglass-half {
   color:#ffffff;
 }
@@ -338,6 +334,7 @@ I work only with the backface packed inside of card class,
 .fa-globe-americas {
   color:#11612e;
 }
+
 .main-header {
   text-align: center;
   font-size: 12px;
