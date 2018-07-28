@@ -45,8 +45,8 @@ The clock will stop once all the pairs are matched and one has the scoring of yo
 One can reset the game at any time by clicking on the reset icon.This will reshuffle the cards, restart the time and reset the moves and your "earth stars".
 
 ### Finish window
-It will reflect the short description of your moves, time and stars and a short message dor the user.
-Also one will have other 2 buttons to restart a new game("Try it again!" button) or to close the finish window and have a look on the matrix of pics ("See you next time buddy! :)" button). 
+It will reflect the short description of moves, time and stars and a  message for the user.
+Also here one will have other 2 buttons to restart a new game("Try it again!" button) or to close the finish window and have a look on the matrix of pics ("See you next time buddy! :)" button). 
 
 # Author
 Created by Georgiana-Ancuta Gava (Anca) for an Udacity project (WEB DEV FEND Nanodegree).
