@@ -53,5 +53,5 @@ Created by Georgiana-Ancuta Gava (Anca) for an Udacity project (FEND Nanodegree)
 
 ### Note: 
 The idea regarding a small part of the code about how the time is displayed as 2 digits for first 10 seconds and also the open cards separated array that is replaced with each matching trial, pertains to Matthew Cranford who gave me some inspiration and challenged me even more my further logic into achivieng my personal vision of how the game actually could work, depending on my own game framework and hopefully...creativity. 
-[his github](https://github.com/MatthewCranford/fend-project-memory-game/tree/162fff98b15e3d9f6afd98034e3415e1049b0d96).
+[Have a look on his github ;) ](https://github.com/MatthewCranford/fend-project-memory-game/tree/162fff98b15e3d9f6afd98034e3415e1049b0d96).
 
