@@ -6,16 +6,16 @@
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
 }
 
 body {
-   font-family: sans-serif;
-   font-size: 15px;
-   padding-bottom: 50px;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-bottom: 50px;
 }
 
 .start-window-popup {
@@ -79,10 +79,10 @@ body {
 }
 
 .cardsDeck {
-    display: flex;
-    flex-wrap:wrap;
-    margin: 16px 5px;
-    justify-content: center;
+   display: flex;
+   flex-wrap:wrap;
+   margin: 16px 5px;
+   justify-content: center;
 }
 
 .card {
@@ -113,7 +113,7 @@ PS: there is no front face as element constructed itself ,
 I work only with the backface packed inside of card class,
  which plays also the role of the front face too but flipped*/
 .backFace {
-    -webkit-transform: rotateY(180deg);
+   -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     background-position: center center;
   }
@@ -137,9 +137,9 @@ I work only with the backface packed inside of card class,
 
 /* the final flipping */
 .show {
-    /* show the back face when clicked */
-    -webkit-transform:rotateY(180deg);
-    transform:rotateY(180deg);
+/* show the back face when clicked */
+  -webkit-transform:rotateY(180deg);
+   transform:rotateY(180deg);
   }
 
 .card.match {
@@ -156,18 +156,6 @@ I work only with the backface packed inside of card class,
   100% {
       box-shadow: 18px 40px 85px #318f1e;
   }
-}
-
-.fa-walking {
-color:white;
-}
-
-.fa-hourglass-half {
-color:white;
-}
-
-.fa-globe-americas {
-  color:#11612e;
 }
 
 .end-window-popup {
@@ -220,17 +208,17 @@ color:white;
   border-radius:20px;
 }
 .reload {
-    height:50px;
-    width:100px;
-    padding:3px 2px;
-    box-shadow: 0 0 25px #166d23;
-    border: 2px solid #194406;
-    cursor: pointer;
-    font-weight: bold;
-    background: linear-gradient(0deg, #736c8a 0%, #fbfbfb 80%);
-    color:#140533;
-    font-size:15px;
-    border-radius:20px;
+  height:50px;
+  width:100px;
+  padding:3px 2px;
+  box-shadow: 0 0 25px #166d23;
+  border: 2px solid #194406;
+  cursor: pointer;
+  font-weight: bold;
+  background: linear-gradient(0deg, #736c8a 0%, #fbfbfb 80%);
+  color:#140533;
+  font-size:15px;
+  border-radius:20px;
 }
 
 .end-text {
@@ -243,26 +231,25 @@ color:white;
 }
 
 .end-text {
-    justify-content: space-between;
-    align-items: center;
-    padding: 1px 5px;
-    text-align: center;
-    font-size: 19px;
-    color: #0c0b0c;
-    box-shadow: 0 0 95px #43867e;
-    font-weight: inherit;
-    text-shadow: 0px 2px 10px #edf0f1, 0 0 1em #407da7, 0 0 0.1em #aeaec4;
-    line-height: 28px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 5px;
+  text-align: center;
+  font-size: 19px;
+  color: #0c0b0c;
+  box-shadow: 0 0 95px #43867e;
+  font-weight: inherit;
+  text-shadow: 0px 2px 10px #edf0f1, 0 0 1em #407da7, 0 0 0.1em #aeaec4;
+  line-height: 28px;
 }
 
 .style {
-    color: #0d082d;
-    flex: 1 1 auto;
-    box-shadow: 1px 10px 30px #113f6a;
-    margin-bottom: 0;
-    /* background: #c00d0d00; */
-   font-size: 20px;
-    border-radius: 30px;
+  color: #0d082d;
+  flex: 1 1 auto;
+  box-shadow: 1px 10px 30px #113f6a;
+  margin-bottom: 0;
+  font-size: 20px;
+  border-radius: 30px;
 }
 
 .style {
@@ -306,7 +293,7 @@ color:white;
 .number-stars, .number-steps {
   align-self:flex-end;
   font-size:20px;
-  color:white;
+  color:#ffffff;
   font-weight:bold;
   padding-top: 34px;
   padding-right: 12px;
@@ -340,6 +327,17 @@ color:white;
   color:#ffffff;
 }
 
+.fa-walking {
+  color:#ffffff;
+}
+
+.fa-hourglass-half {
+  color:#ffffff;
+}
+
+.fa-globe-americas {
+  color:#11612e;
+}
 .main-header {
   text-align: center;
   font-size: 12px;
@@ -394,8 +392,8 @@ a {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
 }
 
 /* Responsive part */
@@ -429,9 +427,9 @@ h1 {
 }
 
 @media all and (min-width:1105px) and (max-width:1600px) {
-  .start-window-popup {width:41%; margin:380px 10% 0 40%;}
-  .start-window-popup > * {font-size:19px;line-height:30px}
+.start-window-popup {width: 40%;margin: 400px 0 0 38%;}
+.start-window-popup > * {font-size:19px;line-height:32px}
 .cardsDeck {width: 900px;height:500px;}
-  .card{height:70px;width:10px;}
-  .backFace {width: 148px;height: 130px;}
+.card {height:70px;width:10px;}
+.backFace {width: 148px;height: 130px;}
 }
