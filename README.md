@@ -1,6 +1,6 @@
 # Memory-Game-Journey
 
-## P3 from Fend Udacity,  "a trip between Romania and Czech Republic" 
+## P3 for Fend Udacity,  "a trip between Romania and Czech Republic" 
  
 ## FEND Memory Game
 
