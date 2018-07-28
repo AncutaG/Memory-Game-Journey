@@ -314,6 +314,7 @@ I work only with the backface packed inside of card class,
 .fa-hourglass-half {
   font-size: 2.3em;
   align-self:flex-end;
+  color:#ffffff;
 }
 
 .visual-clock {
@@ -325,14 +326,6 @@ I work only with the backface packed inside of card class,
   font-size: 2em;
   margin-top: 16px;
   color:#ffffff;
-}
-
-.fa-hourglass-half {
-  color:#ffffff;
-}
-
-.fa-globe-americas {
-  color:#11612e;
 }
 
 .main-header {
