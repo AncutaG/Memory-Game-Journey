@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Memory Game</title>
+<!-- for ccs style sheet -->
+    <link rel="stylesheet" href="css_app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/solid.js" integrity="sha384-Z7p3uC4xXkxbK7/4keZjny0hTCWPXWfXl/mJ36+pW7ffAGnXzO7P+iCZ0mZv5Zt0" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/fontawesome.js" integrity="sha384-juNb2Ils/YfoXkciRFz//Bi34FN+KKL2AN4R/COdBOMD9/sV/UsxI6++NqifNitM" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/solid.js" integrity="sha384-YmNA3b9AQuWW8KZguYfqJa/YhKNTwGVD5pQc1cN0ZAVRudFFtR17HR7rooNcVXe4" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/fontawesome.js" integrity="sha384-QcnrgQuRmocjIBY6ByWMmDvUg3HO4MSdVjY7ynJwZfvTDhVPPQOUI9TRzc6/7ZO1" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- the POPUP windows for start and finish of the game-->
+<!-- I have a layer above the game-wrapper which is toogled to hidden once I click on start game button-->
+  <span class="layer-wrapper"></span>
+<!-- </div> -->
+  <section class="start-window-popup" >
+    <h3 class="greetings1"> Hi there buddy!</h3>
+    <h4 class="greetings2"> How about...<br> a little Memory Game journey?</h4>
+    <button class="start-game-btn"> Let's play!</button>
+  </section>
+  <section class="end-window-popup closed">
+    <div class='stats-content'>
+      <h2 class='end-text'>Congrats!<br>I hope you'll be more curious to discover on your own the beauty of these countries and build your Memories game:)
+                  <span class='style'> Can you guess the 2 countries?</span>
+      </h2>
+      <div class='stats-panel'>
+        <p class="gameTime"></p>
+        <p class="totalStars"></p>
+        <p class="totalMoves"></p>
+      </div>
+      <div class="finish-window-btns">
+        <button class="reload">Try it again! </button>
+        <button class="close"> See you <br> next time buddy:) </button>
+      </div>
+    </div>
+  </section>
+  <!-- the wrapper for the game itself: the constant game info and the matrix of cards -->
+  <div class="game-wrapper">
+    <header class="main-header">
+      <h1> Your Memory Game journey </h1>
+    </header>
+<section class="live-game-stats">
+     <!--stars -->
+  <div class="stars">
+      <p class="number-stars">3</p>
+      <i class="fas fa-globe-americas fa-3x"></i>
+  </div>
+  <!-- Clock -->
+  <div>
+  <p class="visual-clock">0:00</p>
+  <i class="fas fa-hourglass-half fa-2x"></i>
+<!-- <i class="fas fa-hourglass-start fa-2x"></i> -->
+  </div>
+    <!-- Number of Moves -->
+  <div class="moves">
+      <p class="number-steps">0</p>
+      <i class="fas fa-walking fa-3x"></i>
+  </div>
+  <!-- Reset -->
+  <div class="reset">
+      <i class="fas fa-redo fa-3x"></i>
+  </div>
+</section>
+<section class="cardsDeck"></section>
+</div>
+<div class='creditsText'>
+  <p class="ref">Images provided via <a href="https://www.instagram.com/romaniapitoreasca/?hl=cs">Instagram</a></p>
+  <!-- <p class="ref"> and also <a href="https://www.facebook.com/justapack/"> Just a pack </a></p> -->
+</div>
+  <!-- for JS script -->
+  <script src="app.js"></script>
+</body>
+
+</html>
