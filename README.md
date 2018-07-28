@@ -31,25 +31,25 @@ You finish the game when you matched all 10 pairs.
 
 ### Flipping  the cards and matching them
 Each possible first 2 cards are clicked and then are compared in order to decide for matching or not.
-If they are not motched then they are flipped back and then the searching of the pairs continues with other 2 cards.
+If they are not moatched then they will be flipped back and then the searching of the pairs continues with other 2 cards, so on.
 
 ### Recording the moves, clock and stars
-Every step you make is recorded while the time passes too.
-The numbers of the moves are connected to the number of "earth stars"(you start with 3) that you lose as you make more and more moves.
-You can track all of this in real time during the game.
+Every step one makes is recorded, while the time passes too.
+The numbers of the moves are connected to the number of the "earth stars"(you start with 3) that one will lose as he/she will make more and more moves.
+User can track all of these in real time during the game.
 
 The treshold is set a reasonable way (2 guess chances per each pair) adding a margin of 5 moves.When the number of moves is between 25 and 35 the number of "earth stars" goes to 2 and further the stars will remain to 1. 
-The clock will stop once you matched all the pairs and you have the scoring of your game, which by the way will contain the exactly last minute from your game.
+The clock will stop once all the pairs are matched and one has the scoring of your game, which by the way will contain the exactly last minute on the finish of the game.
 
 ### Reset option
-You can reset the game at any time by clicking on the reset icon.This will reshuffle the cards, restart the time and reset the moves and your "earth stars".
+One can reset the game at any time by clicking on the reset icon.This will reshuffle the cards, restart the time and reset the moves and your "earth stars".
 
 ### Finish window
-This will reflect the short description of your moves, time and stars and a short message dor the user.
+It will reflect the short description of your moves, time and stars and a short message dor the user.
 Also one will have other 2 buttons to restart a new game("Try it again!" button) or to close the finish window and have a look on the matrix of pics ("See you next time buddy! :)" button). 
 
 # Author
-Created by Georgiana-Ancuta Gava (Anca) for an Udacity project (FEND Nanodegree).
+Created by Georgiana-Ancuta Gava (Anca) for an Udacity project (WEB DEV FEND Nanodegree).
 
 ### Note: 
 The idea regarding a small part of the code about how the time is displayed as 2 digits for first 10 seconds and also the open cards separated array that is replaced with each matching trial, pertains to Matthew Cranford who gave me some inspiration and challenged even more my further logic into achivieng my personal vision of how the game actually could work, depending on my own game framework and hopefully...my own creativity. 
