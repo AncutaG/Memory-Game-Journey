@@ -533,12 +533,12 @@ h1 {
  .cardsDeck {margin-left:auto;margin-right:auto;width:1050px;}
 }
 
- @media all and (min-width:1611px) and (max-width:1710px) and (max-height:1000px) {
+ @media all and (min-width:1611px) and (max-width:2000px) and (max-height:1000px) {
  .start-window-popup {width:58%; margin:380px 10% 0 40%; padding:40px 20px;}
  .start-window-popup > * {font-size:18px;line-height:25px}
  .card {height:120px;width:140px;}
  .backFace {height:190px;width:194px;}
- .cardsDeck {margin-left:auto;margin-right:auto;width:1100px;}
+ .cardsDeck {margin-left:auto;margin-right:auto;width:1200px;}
 }
 
 /* ipad Pro */
