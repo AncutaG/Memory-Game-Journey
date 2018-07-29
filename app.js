@@ -1,8 +1,8 @@
 
 /* Create a list that holds all of your cards */
-
 /* I will have the array (of objects) of images attached here together,
 I won't use fontawesome svgs for the matrix */
+
 const cardsArray = [{
   'name': 'karlstejnCastle',
   'img': 'img_mem_game_small/Karlstejn_Castle_just_a_pack.jpg'
@@ -43,19 +43,16 @@ const cardsArray = [{
 *   - add each card's HTML to the page*/
 
 /*My notes*/
-
 /* document.querySelector selects the first element in html with that class*/
 /* I took the cardsDeck class for the deck itself
 and constructed the variable that will store the pairs of cards after are created in HTML too*/
 
-/* set the clock,stars and moves - the constant game info taht appears next to the grid*/
+/* set the clock,stars and moves - the constant game info that appears next to the grid*/
 const startButton=document.querySelector(".start-game-btn");
 let minutesTime=0;
 let secondsTime=0;
 let moves=0;
 let stars=3;
-// let timeIndex;
-// let timeStep;
 startButton.addEventListener('click', event => {
    time=setInterval(timer,1000);
   document.querySelector('.layer-wrapper').classList.add('hidden');
@@ -79,10 +76,6 @@ function timer() {
 
   minutes=Math.floor(secondsTime/60).toString();
   visualClock.textContent=minutes+":"+ seconds;
-  // if(minutes>=60) {
-  // visualClock.textContent="Buddy, this is way too long...";
-  //   clearTimeout(visualClock);
-  // }
 }
 
 let openCards=[];
@@ -101,7 +94,7 @@ let matchedCards=0;
 }
 
 
-/* this is the full array with the pairs of cards, shuffled also*/
+/* this is the full array with the pairs of cards, shuffled also */
 /*  use concat() because it  concatenates the array itelf with the same array  and you'll have the pairs :) */
 
 //OBS:
@@ -119,9 +112,6 @@ function generateCards() {
       let name=item.name, img=item.img;
       const iconCard=document.createElement("article");
       iconCard.classList.add("card");
-      // iconCard.dataset.name=name;
-      // const frontCard=document.createElement("div");
-      // frontCard.classList.add("frontFace");
       const backCard=document.createElement("div");
       backCard.classList.add("backFace");
       backCard.dataset.name=name;
@@ -129,13 +119,13 @@ function generateCards() {
 
     /* the final appending inside of the html section*/
       matrix.appendChild(iconCard);
-      // iconCard.appendChild(frontCard);
       iconCard.appendChild(backCard);
     });
 }
 
 /* the Click Event is practically splitted between toggling (switching off/on the card class)
   and matching the pairs(check for the match also) and keeping the cards already opened at the LEVEL of the checked PAIR*/
+
   document.querySelector(".cardsDeck").addEventListener('click', event => {
     const clickCard=event.target;
     checkCards(clickCard);
@@ -156,9 +146,9 @@ function generateCards() {
 then, on the possible pair level (when you touch 2 cards as array length), check the matching
 and toggle the new additional class for those 2 cards
 
----> if they are not a match then make space in openCards for other 2 future cards
+---> if they are not a match then make space in openCards for other 2 future cards (taken from Cranford , good idea) 
 then check the matching once you have 2 flipped cards
-then also inside here end the game once a  maximum of pairs is obtained */
+then also inside here end the game once a maximum of pairs is obtained */
 
 function checkCards(clickCard) {
     // Prevent cards being checked while timeout in progress
