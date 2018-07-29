@@ -391,7 +391,7 @@ h1 {
 .creditsText {
     display: flex;
     flex-flow: column wrap;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     margin-left: 2%;
 }
 /* Responsive part */
@@ -540,5 +540,5 @@ h1 {
  .card {height:133px;width:153px;}
  .backFace {height:209px;width:208px;}
  .cardsDeck {margin-left:auto;margin-right:auto;width:880px;}
- .creditsText {font-size:19px;}
+ .ref {font-size:19px;}
 }
