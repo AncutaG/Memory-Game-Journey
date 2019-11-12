@@ -11,9 +11,9 @@ Mainly the purpose of the little game is reflected in a set of rules:
 - providing the final stats of the game
 
 ## The project is splitted between:
--HTML: P3_index.html
-- CSS: css_app.css
-- JS script: app.js
+ -HTML: P3_index.html
+ - CSS: css_app.css
+ - JS script: app.js
 
 ## Technologies Used:
 - HTML5
