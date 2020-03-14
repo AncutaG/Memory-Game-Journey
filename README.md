@@ -16,10 +16,11 @@ Mainly the purpose of the little game is reflected in a set of rules:
  - JS script: app.js
 
 ## Technologies Used:
-- HTML5
-- CSS3
-- JavaScript
-- FontAwesome, for the small icons on the game menu.
+
+* HTML5
+* CSS3
+* JavaScript
+--> using as well FontAwesome, for the small icons on the game menu.
 The cards that contain real images between the countries that I lived in till present times :Czech Republic and Romania(my home country).
 As a disclaimer, the images used for the flipping cards pertain to the sources cited on the page too for Romania [here](https://www.instagram.com/romaniapitoreasca/?hl=cs) and for Czech Republic, mainly Prague [just a pack facebook photos](https://www.facebook.com/justapack/).
 
